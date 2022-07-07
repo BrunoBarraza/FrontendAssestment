@@ -1,12 +1,49 @@
 <html lang="en">
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #cccc;
+        text-align: left;
+        padding: 10px;
+    }
+
+    th {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Countries of the World</title>
 </head>
+
 <body>
-    <h1>Page title</h1>
+    <h1>Countries</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Official Name</th>
+                <th>Capital</th>
+                <th>Region</th>
+                <th>Language</th>
+                <th>Population</th>
+                <th>Flag</th>
+            </tr>
+        </thead>
+
+        <tbody id="data-output"></tbody>
+    </table>
+
     <script src="sandbox.js"></script>
 </body>
+
 </html>
